@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+body {
+    background-color:#fff;
+    font-family: "raleway";
+    font-weight: 300;
+}
+#nav-top {
+  background-color:#68bbff;
+  font-size: 18px;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+#nav-top li{
+    text-align: center;
+    width: 15%;
+    display: block;
+    float: left;
+    border-right: #fff 1px solid ;
+}
+#nav-top li:last-child {
+    border-right: none;
+}
+#nav-top a{
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    padding: 5px;
+}
+#nav-top a:hover {
+    color:#333;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #68bbff;
+}
+
+img {
+    padding-top: 15px;
+}
+
+.title {
+    color: #0122f8;
+    font-size: 45px;
+    padding-right: 25px;
+}
+.title-sub {
+    color: #444444;
+    font-size:20px;
+}
+
+.container {
+    width: 100%;
+    border: #fff 2px solid;
+    margin: 50px auto;
+    overflow: hidden;
+}
+
+.container div{
+    border: #fff 1px solid;
+}
+
+.blog {
+    float: left;
+    position: relative;
+}
+.col-1 {
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+}
+.col-4{
+    float:left;
+    width: 33.33333%;
+    box-sizing: border-box;
+
+}
+
+.col-8 {
+    float: left;
+    width: 66.66666%;
+    box-sizing: border-box;
+}
+.date {
+    color:#b1b1b1;
+    margin-bottom: 0;
+    font-size: 30px;
+    padding: 10px 0;
+}
+.blog-title{
+    color: #000;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.blog-body:first-of-type:first-letter {
+    color: #444;
+    float: left;
+    font-size: 50px;
+    line-height: 1;
+    margin-right: 10px;
+}
+
+.right-align {
+    text-align: right;
+}
+#sidebar {
+    float: right;
+    position: absolute;
+    top: 200px;
+    right: 0;
+    padding:10px;
+}
+#side-nav {
+    font-size: 16px;
+}
+#side-nav:hover {
+    color: #444;
+}
+.sidebar-title {
+    color:#000;
+    font-weight: bold;
+    font-size: 20px;
+}
+.sidebar-body {
+    color: #444;
+    float: left;
+    font-size: 16px;
+}
+
+#footer-nav {
+    text-align: left;
+    padding: 0;
+    bottom:0;
+}
+#footer-nav li{
+    display: inline;
+    list-style: none;
+    border-right: #d1d1d1 1.5px solid;
+    padding: 0 4px;
+}
+#footer-nav li:last-child{
+    border: none;
+}
+nav{
+    bottom:0;
+}
